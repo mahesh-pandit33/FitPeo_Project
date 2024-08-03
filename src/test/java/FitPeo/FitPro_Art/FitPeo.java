@@ -56,8 +56,8 @@ public class FitPeo {
      
      // Validate Total Recurring Reimbursement
      WebElement totalReimbursement = driver.findElement(By.xpath("//div[@class='MuiBox-root css-rfiegf']")); 
-     if (totalReimbursement.getText().equals("$110700")) {
-         System.out.println("Total Recurring Reimbursement is correct.");
+     if (totalReimbursement.getText().equals("$110929")) {
+         System.out.println("TotalAmount is correct.");
      }
      else 
      	System.out.print("Incorrect Data");
